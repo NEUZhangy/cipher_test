@@ -5,14 +5,13 @@ import javax.crypto.NoSuchPaddingException;
 
 public class SampleCipher {
 
-    private String changeString(String check) {
-        check = "AES";
-        return check;
+    private int changeString() {
+        return 123;
     }
 
     public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException {
-        String check = "MD5";
-        Cipher a = Cipher.getInstance(new SampleCipher().changeString(check));
+        int check = new SampleCipher().changeString();
+        Cipher a = Cipher.getInstance(Integer.toString(check));
         //int a = 0;
     }
 
