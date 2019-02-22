@@ -6,8 +6,8 @@ import javax.crypto.NoSuchPaddingException;
 public class SampleCipher {
 
     public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException {
-        String algo = "AES/CBC/PKCS5Padding";
-        Cipher a = Cipher.getInstance(algo);
+        String check = "MD5";
+        Cipher a = Cipher.getInstance(check);
         //int a = 0;
     }
 
