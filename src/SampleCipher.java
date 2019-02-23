@@ -9,14 +9,14 @@ public class SampleCipher {
         return check;
     }
 
-    public int f = 1;
+    public int f = 2;
     public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException {
-        String check = "MD5";
+        String check = "SHA256";
         SampleCipher obj = new SampleCipher();
         Cipher a = Cipher.getInstance(obj.changeString(check));
         //int a = 0;
         int g = obj.f;
-        Cipher c =a;
+
     }
 
 }
