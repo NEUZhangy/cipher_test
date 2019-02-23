@@ -16,7 +16,7 @@ public class SampleCipher {
         Cipher a = Cipher.getInstance(obj.changeString(check));
         //int a = 0;
         int g = obj.f;
-
+        Cipher c =a;
     }
 
 }
