@@ -9,13 +9,13 @@ public class SampleCipher {
         return check;
     }
 
-    public int f = 2;
+    public int f = 3;
     public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException {
         String check = "SHA256";
         SampleCipher obj = new SampleCipher();
         Cipher a = Cipher.getInstance(obj.changeString(check));
         //int a = 0;
-        int g = obj.f -1;
+        int g = obj.f -2;
 
     }
 
